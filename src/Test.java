@@ -19,7 +19,7 @@ public class Test {
             long v = random.nextLong();
 
             myHashMap.put(keys.get(i), v);
-            System.out.println("put " + keys.get(i) + " " + v);
+            System.out.println("put to map" + keys.get(i) + " " + v);
         }
 
         System.out.println("\nsize " + myHashMap.size() + "\n");

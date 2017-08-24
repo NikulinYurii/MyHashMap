@@ -3,7 +3,7 @@ import static com.sun.xml.internal.fastinfoset.util.KeyIntMap.indexFor;
 
 public class MyHashMap<K, V> {
 
-    private int threshold = 15;
+    private int threshold = 30;
     private Entry<K, V>[] table;
     private int size;
 
